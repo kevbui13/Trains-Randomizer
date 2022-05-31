@@ -45,6 +45,12 @@ if __name__ == '__main__':
         if check_type > 4 or check_type < 1:
             error = error + 1
 
+        ## Check for too many of one cost level.
+        for i in [2,3,4,5,6,7]:
+            check_cost = card_type.count(i)
+            if check_cost > 4:
+                error = error + 1
+
     ## Output to Terminal
     for i in range(0,8):
         print("Cost: ",card_cost[i],"       Type: ",card_type[i],"      Name: ",card_name[i])
