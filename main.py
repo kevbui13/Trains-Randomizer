@@ -13,8 +13,6 @@ if __name__ == '__main__':
         error = 0
         pool = random.sample(randomizer, k=8)
 
-        print(pool)
-
         card_cost = []
         card_type = []
         card_name = []
@@ -28,33 +26,23 @@ if __name__ == '__main__':
 
         ## Checks for Balanced Randomizers
         check_sum = sum(card_cost)
-        if check_sum > 46:
-            error = error + 1
-        if check_sum < 34:
+        if check_sum > 46 or check_sum < 34:
             error = error + 1
 
         check_type = card_type.count("r")
-        if check_type > 4:
-            error = error + 1
-        if check_type < 1:
+        if check_type > 4 or check_type < 1:
             error = error + 1
 
         check_type = card_type.count("b")
-        if check_type > 4:
-            error = error + 1
-        if check_type < 1:
+        if check_type > 4 or check_type < 1:
             error = error + 1
 
         check_type = card_type.count("p")
-        if check_type > 4:
-            error = error + 1
-        if check_type < 1:
+        if check_type > 4 or check_type < 1:
             error = error + 1
 
         check_type = card_type.count("g")
-        if check_type > 4:
-            error = error + 1
-        if check_type < 1:
+        if check_type > 4 or check_type < 1:
             error = error + 1
 
     ## Output to Terminal
