@@ -1,6 +1,8 @@
 import random
 
-randomizer = ["7rControl Room", "4bNovelty Train", "3gLay Rail", "3pStation Expansion", "7gViaduct", "3bLimited Train", "3rPolitician", "7bMaglev"]
+with open("randomizer.txt") as f:
+    randomizer = f.read().splitlines()
+
 error = 1
 card_cost = []
 card_type = []
@@ -26,11 +28,11 @@ if __name__ == '__main__':
 
         ## Checks for Balanced Randomizers
         check_sum = sum(card_cost)
-        if check_sum > 46 or check_sum < 34:
+        if check_sum > 44 or check_sum < 34:
             error = error + 1
 
         check_type = card_type.count("r")
-        if check_type > 4 or check_type < 1:
+        if check_type > 5 or check_type < 1:
             error = error + 1
 
         check_type = card_type.count("b")
@@ -38,17 +40,17 @@ if __name__ == '__main__':
             error = error + 1
 
         check_type = card_type.count("p")
-        if check_type > 4 or check_type < 1:
+        if check_type > 3 or check_type < 1:
             error = error + 1
 
         check_type = card_type.count("g")
-        if check_type > 4 or check_type < 1:
+        if check_type > 3 or check_type < 1:
             error = error + 1
 
         ## Check for too many of one cost level.
         for i in [2,3,4,5,6,7]:
-            check_cost = card_type.count(i)
-            if check_cost > 4:
+            check_cost = card_cost.count(i)
+            if check_cost > 3:
                 error = error + 1
 
     ## Output to Terminal
