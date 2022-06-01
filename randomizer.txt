@@ -1,0 +1,78 @@
+6rJunk Yard
+2bMonorail
+5rVice President
+3rPulling
+2rLegal Counsel
+4gSteel Bridge
+5rConsolidation
+3rDispatcher
+4rInformation Central
+5rMaintenance Factory
+5bBioFuel Train
+6bInter-City Train
+5gViaduct
+5pBuilding Boom
+4pOverbuilding
+5gCollaboration
+2rSurveyor
+2bNovelty Train
+3rCommand Central
+4rProtesters
+2bOutdated Train
+5rSignaling Area
+3bCommuter Train
+2rConductors Station
+6rEffective Plan
+4pUnion Contract
+5gSea Bridge
+4rAmusement Park
+5bExperimental Train
+2rReclamation Depot
+3rEngineer
+5bEarly Train
+5rLimited Partnership
+5gScenic Route
+4rCharitable Support
+6gTrail Blazer
+5rTemporary Timetable
+4rYardmaster
+3rExtra Laborers
+4bFreight Train
+5gTunnel
+4pRuralization
+4gDistant Partners
+5rDumpsite
+5bStreetcar
+4rRoundhouse
+4rStationmaster Office
+3rGarage
+5bReturn Train
+7gSubway Excavation
+7rControl Room
+7bMaglev
+3rUnhappy Passengers
+4rIncinerator
+6rRecycling Center
+2bBullet Train
+3rHoliday Timetable
+2rBanker
+6bMining Train
+4bTourist Train
+3rUpgrade
+5gGovernment Subsidy
+6bMultiUnit Train
+2rSignals
+3rPassing Station
+2rStrategy Meeting
+4rIronworks
+3rRegulations
+4bMail Train
+2rLandfill
+4rCorporate Rate
+5gInterchange
+4rHigh Demand
+2rStation Crew
+4rPolitician
+3rSwitchback
+2rProductivity
+5rWagon Factory
